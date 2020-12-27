@@ -1,9 +1,52 @@
+#main{
+	display: table;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: hsl(44, 0%, 17%);
+}
+
+.taille {
+	height: 400px;
+	width: 300px;
+	border-radius: 15px;
+
+}
+
+table {
+	height: 100px;
+}
+
+tr {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 button {
+	align-items: center;
     width: 50px;
     height: 50px;
+    border-radius: 15px;
+
 }
 
 input {
+	display: table;
+	margin: 0 auto 0 auto 0;
     height: 50px;
     width: 260px;
+}
+
+.screen {
+
+}
+
+.space button {
+	width: 20vw;
+	border: none;
+	border-radius: 48px;
+	background: linear-gradient(145deg, #262828, #2d2f2f);
+	box-shadow:  5px 5px 10px #262828, 
+            	-5px -5px 10px #2e3030;
 }
