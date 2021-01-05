@@ -32,8 +32,7 @@ table {
 
 tr {
 	display: table;
-	margin-left: auto;
-	margin-right: auto;
+	
 }
 
 button {
@@ -51,7 +50,7 @@ button {
 
 input {
 	display: table;
-	margin: 0 auto 0 auto 0;
+	margin-left: 5px;
     height: 50px;
     width: 260px;
     border: none;
@@ -66,10 +65,27 @@ input {
 }
 
 .space button {
-	width: 18vw;
+	width: 265px;;
 	border: none;
 	border-radius: 48px;
 	background: linear-gradient(145deg, #262828, #2d2f2f);
 	box-shadow:  5px 5px 10px #262828, 
             	-5px -5px 10px #2e3030;
+}
+
+@media screen and (min-width: 2560px) {
+
+		tr {
+		display: table;
+		margin-left: 1px;
+	}
+
+	input {
+		margin-left: 3px;
+
+	}
+
+	.space button {
+		width: 265px;
+	}
 }
